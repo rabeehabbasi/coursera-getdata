@@ -70,4 +70,3 @@ Following are the variables used in the tidy dataset. First variable is subject 
 1. std_fBodyBodyAccJerkMag
 1. std_fBodyBodyGyroMag
 1. std_fBodyBodyGyroJerkMag
-1. 
