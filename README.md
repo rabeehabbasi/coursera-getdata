@@ -7,7 +7,9 @@ This repo has two main files. CodeBook.md and run_analysis.R
 Open this file to read about the variables
 
 ## run_analysis.R
-Put this file in the folder which contains the "UCI HAR Dataset" folder. This scripts reads the smart phone data, makes it tidy and writes the tidy data output to "data.csv". 
+Put this file in the folder which contains the "UCI HAR Dataset" folder. Set working directory accordingly using setwd function. Run this script using source("run_analysis.R"). If you get some errors, make sure that you have set the working directory properly and "UCI HAR Dataset" folder with sub folders "train" and "test" is present in your current working directory.
+
+This scripts reads the smart phone data, makes it tidy and writes the tidy data output to "data.csv". 
 
 Following steps are involved in reading raw data and transforming it to tidy data:
 
