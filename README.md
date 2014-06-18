@@ -10,6 +10,7 @@ Open this file to read about the variables
 Put this file in the folder which contains the "UCI HAR Dataset" folder. This scripts reads the smart phone data, makes it tidy and writes the tidy data output to "data.csv". 
 
 Following steps are involved in reading raw data and transforming it to tidy data:
+
 1. Load feature names
 2. Load activity names
 3. Find the indexes of mean and std variables
